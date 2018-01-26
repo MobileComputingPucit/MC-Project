@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.speedy.pucitdossier.LoginActivity"
+    android:paddingTop="@dimen/login_verticle_margin_small">
+
+    <RelativeLayout android:id="@+id/rl_create_signup_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/tv_student_signup_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/tv_message_signup_student"
+            android:textSize="@dimen/signup1_title"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_student_signup_student"
+            android:text= "@string/tv_requirments"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_middle_signup_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_create_signup_student"
+        android:background="@color/colorLightGrey"
+        android:layout_marginTop="@dimen/login_verticle_margin_small">
+
+        <TextView android:id="@+id/tv_user_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_marginTop="@dimen/login_verticle_margin_small"
+            android:text="Username"
+            android:textStyle="bold"/>
+        <EditText android:id="@+id/et_user_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_below="@id/tv_user_signup_student"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:background="@color/colorWhite"/>
+        <TextView android:id="@+id/tv_password_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_user_signup_student"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:text="Create a Password"
+            android:textStyle="bold"/>
+        <EditText android:id="@+id/et_password_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_below="@id/tv_password_signup_student"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:background="@color/colorWhite"
+            android:inputType="textPassword"/>
+        <TextView android:id="@+id/tv_confirm_password_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_password_signup_student"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:text="Confirm Your Password"
+            android:textStyle="bold"/>
+        <EditText android:id="@+id/et_confirm_password_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_below="@id/tv_confirm_password_signup_student"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:background="@color/colorWhite"
+            android:inputType="textPassword"/>
+        <TextView android:id="@+id/tv_phone_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_confirm_password_signup_student"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:text="Phone Number"
+            android:textStyle="bold"/>
+        <EditText android:id="@+id/et_phone_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_phone_signup_student"
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:background="@color/colorWhite"/>
+        <TextView android:id="@+id/tv_gender_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_phone_signup_student"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:text="Gender"
+            android:textStyle="bold"/>
+
+        <RadioGroup android:id="@+id/rg_gender_signup_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_gender_signup_student"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioGroup1"
+                android:layout_below="@+id/radioGroup1"
+                android:text="Female" />
+
+        </RadioGroup>
+        <TextView android:id="@+id/tv_birthday_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rg_gender_signup_student"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:text="Birthday"
+            android:textStyle="bold"/>
+        <EditText android:id="@+id/et_birthday_signup_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_birthday_signup_student"
+            android:hint="dd/mm/yyyy"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_marginTop="@dimen/margin_with_tv"
+            android:background="@color/colorWhite"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rl_done_signup_student"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorLightGrey"
+        android:layout_below="@id/rl_middle_signup_student">
+
+        <Button android:id="@+id/btn_done_signup_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_verticle_margin_small"
+            android:layout_marginLeft="@dimen/left_right_margin"
+            android:layout_marginRight="@dimen/left_right_margin"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorSkyBlue"
+            android:text="Done"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+
+</RelativeLayout>

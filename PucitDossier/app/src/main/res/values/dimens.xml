@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_horizontal_margin">15dip</dimen>
+    <dimen name="login_verticle_margin_small">25dip</dimen>
+    <dimen name="login_verticle_margin_large">50dip</dimen>
+    <dimen name="signup1_title">20dip</dimen>
+    <dimen name="left_right_margin">15dip</dimen>
+    <dimen name="margin_with_tv">5dip</dimen>
+</resources>

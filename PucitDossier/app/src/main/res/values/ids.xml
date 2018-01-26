@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_learn_more" type="id">
+        <![CDATA[<a href="http://www.cleverfinger.com.au/user-guide/">Learn more</a> about why we ask for this information]]></item>
+</resources>

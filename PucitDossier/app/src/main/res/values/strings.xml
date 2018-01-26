@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PucitDossier</string>
+    <string name="tv_signup_login">Till did not registered? Join us with your PUCIT account <a href="mailto:support@cleverfinger.com.au?Subject=Lost%20Password" target="_top">SIGN UP</a></string>
+    <string name="tv_forget_password_login">Forgot Your Password? <a href="mailto:support@cleverfinger.com.au?Subject=Lost%20Password" target="_top">Click Here</a> </string>
+    <string name="tv_learn_more"><a href="http://www.cleverfinger.com.au/user-guide/">Learn more</a> about why we ask for this information</string>
+    <string name="tv_messsage_signup1">Create Your PUCIT DOSSIER Account</string>
+    <string name="tv_message_signup_student">Dear PUCITian!</string>
+    <string name="tv_requirments">Fill the following requirments to complete the Registration</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="tv_welcome_home">Welcome Home</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="tv_forget_password">Forget Password</string>
+    <string name="btn_back">BACK</string>
+    <string name="tv_about_email">We are requiring your email id during sigup so that only PUCITians can access this app</string>
+    <string name="tv_about_phone">We are requiring your phone numbers so that during your academic year teacher can send his/her announcment
+    directly to your number if you have no intenet connection for using social media websites</string>
+    <string name="tv_about_basic">Other information are basic and neccessary during signup</string>
+
+
+</resources>
