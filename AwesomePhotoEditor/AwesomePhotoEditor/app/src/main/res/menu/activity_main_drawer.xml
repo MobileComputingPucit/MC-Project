@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@mipmap/edit"
+            android:title="Edit" />
+        <item
+            android:id="@+id/nav_effects"
+            android:icon="@mipmap/effects"
+            android:title="Effects" />
+        <item
+            android:id="@+id/nav_quit"
+            android:icon="@mipmap/close"
+            android:title="Quit" />
+    </group>
+
+</menu>
